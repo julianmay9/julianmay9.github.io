@@ -1,3 +1,126 @@
-h1 {
-    color: red;
+/* =========================================================
+Base Element Styles
+========================================================= */
+
+/** {
+box-sizing: border-box;
+}*/
+
+body {
+    line-height: 1.6;
+    color: #3a3a3a;
 }
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+#profile {
+    height: 280px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+/* =========================================================
+Base Layout Styles
+========================================================= */
+
+/* ----- Navigation ----- */
+
+#main-nav {
+    background: #fff;
+}
+
+#name {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 15px;
+    margin-right: 520px;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+#name,
+#main-nav,
+#main-nav li{
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+#main-nav a{
+    padding: 10px 10px;
+    display: block;
+}
+
+/* ----- Layout Containers ----- */
+
+.wrap {
+    min-height: calc(100vh - 89px);
+}
+
+.container {
+    width: 70%;
+    /*padding-left: 1em;
+    padding-right: 1em;*/
+    margin: 0 auto;
+}
+
+/*.card {
+}*/
+
+.background {
+    background: url("https://www.fliesenxl.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/l/o/london_city_grey_60x60_matt_bovenaanzicht.jpg");
+    width: 100%;
+}
+
+#about {
+    background-color: #fff;
+    border: solid 1px red;
+}
+
+#contact {
+    background-color: #fff;
+    border: solid 1px red;
+}
+
+#main-header {
+    background: #fff
+}
+
+#main-footer {
+    text-align: center;
+    padding: 2em 0;
+    background: #666666;
+}
+
+/* =========================================================
+Media Queries
+========================================================= */
+
+/*
+@media (min-width: 769px) {
+
+.wrap {
+    min-height: calc(100vh - 89px);
+}
+
+.container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+}
+*/
